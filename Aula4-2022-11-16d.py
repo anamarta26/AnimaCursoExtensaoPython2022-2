@@ -3,7 +3,8 @@ import aula4_2022_11_16c as bd
 con, cur = bd.conectar()
 
 nome = input("Informe o nome do herói/vilão: ")
-nome_civil = input("Informe o nome civil do herói/vilão (sua identidade secreta): ")
+nome_civil = input(
+  "Informe o nome civil do herói/vilão (sua identidade secreta): ")
 tipo_numerico = input("Tecle 1 para Herói(na) ou 2 para Vilã(o)")
 
 #Consulta para o valor máximo usado no banco
