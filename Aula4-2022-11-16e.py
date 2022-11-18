@@ -3,11 +3,11 @@ import aula4_2022_11_16c as bd
 con, cur = bd.conectar()
 
 nome = input("Informe o nome do herói/vilão: ")
-nome_civil = input("Informe o nome civil do herói/vilão (sua identidade secreta): ")
+nome_civil = input(
+  "Informe o nome civil do herói/vilão (sua identidade secreta): ")
 tipo_numerico = input("Tecle 1 para Herói(na) ou 2 para Vilã(o): ")
 
 #Consulta aqui a tabela grupos e exibe na tela, pedindo para o usuário digitar o grupo_id
-
 
 #Consulta para o valor máximo usado no banco
 sql = "SELECT MAX(pessoa_id)+1 FROM pessoas"
