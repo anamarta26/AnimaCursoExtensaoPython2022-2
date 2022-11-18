@@ -1,9 +1,9 @@
 # The command that runs the program. If the interpreter field is set, it will have priority and this run command will do nothing
-run = "Aula3-2022-11-09a.py"
+run = "Aula4-2022-11-16e.py"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"
-entrypoint = "Aula3-2022-11-09a.py"
+entrypoint = "Aula4-2022-11-16e.py"
 
 # A list of globs that specify which files and directories should
 # be hidden in the workspace.
